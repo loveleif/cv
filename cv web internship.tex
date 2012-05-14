@@ -1,0 +1,75 @@
+\documentclass[10pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=3cm]{geometry}
+
+
+\usepackage{multirow}
+
+
+\usepackage[T1]{fontenc}	      
+\usepackage[swedish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{libertine}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true
+}
+
+\title{\bfseries\Huge Kristofer Leifland}
+\author{kristofer.leifland@gmail.com}
+\date{}
+
+
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+\begin{minipage}[ht]{0.48\textwidth}
+Falkenbergsgatan 8B:1402\\
+214 24 Malmö\\
+SWEDEN
+\end{minipage}
+
+%\begin{minipage}[ht]{0.48\textwidth}
+%January 3rd, 2020\\
+%+12 34 56 789
+%\end{minipage}
+
+\section*{Objective}
+I love software development. I'm currently studying for an engineering degree in computer science at Malmö University. I'm interested in web-programming, both back and front end. In the web world I've got experience from a number of school and private projects, including:
+\begin{itemize}
+\item Scraping and putting apartments for rent on a map (Python, JavaScript, HTML, MySQL, Google Maps API), see \url{http://leiflandia.se/boplats/}
+\item Web-based RESTful application server for data synchronization with an Android device and data presentation on the web (Java EE, MySQL, Hibernate (ORM), HTML, JavaScript, Google Maps API), see \url{https://github.com/grupp6/HelmetServer} (source code).
+\item Web-service helping me to quit smoking by tracking number of cigarettes smoked over time and presenting this information in a pretty graph (PHP, MySQL).
+\end{itemize}
+I'm now looking for an internship to gain further experience and get contacts in the business.
+
+\section*{Professional Experience}
+\begin{tabular}{L!{\VRule}R}
+2010--2012&{\bf Product evaluation assistant at Syngenta Seeds AB.}\\
+&At Syngenta I had the opportunity to work in collaboration with their statistician (Rikard Alm) on some interesting projects that included data mining, statistical analysis and visualization of historical trial data. I was also involved in a software migration project to develop reports in Crystal Reports and writing user documentation together with a team of developers in the USA and Egypt. My routine tasks included data management and assisting in trial planning within the PE group.\\
+\end{tabular}
+
+\section*{Education}
+\begin{tabular}{L!{\VRule}R}
+2011--2014 & {\bf BSc computer engineering, Malmö University, Sweden.}\\
+&In the autumn of 2011 I decided to quit my job for Syngenta and start studying again. I've been a programmer at heart for over a decade and now I will be one for my profession as well. \\
+2002--2008&{\bf MSc environmental science, Lund University, Sweden.}\\
+&In my master thesis in environmental science I evaluated several crayfish biomass models using my own tools for statistical analysis developed in MatLab.
+%\vspace{5pt}\\
+\end{tabular}
+
+%\section*{Languages}
+%\begin{tabular}{L!{\VRule}R}
+%Swedish&Mother tongue\\
+%English&Fluent\\
+%French&Some\\
+%\end{tabular}
+
+\end{document}
